@@ -1,0 +1,95 @@
+/* DOCUMENTO CSS */ 
+* {
+	margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+
+}
+
+body {
+	background: linear-gradient(to bottom, #fff600 10%,#16A085 100%); 
+background-attachment: fixed; 
+font-family: 'Segoe UI', sans-serif; 
+height: 100%;
+} 
+header{
+display: flex;
+justify-content: center;
+text-align: center; 
+padding-top: 20px; 
+color: #fff600;
+height: 300px;
+ }
+
+
+header figure { 
+height: 300px; 
+} 
+
+header figure img { 
+
+height: 100%; 
+
+ 
+} 
+
+header h1{
+	margin: 7px 0 0 10px; 
+
+}
+main { 
+
+display: flex; 
+justify-content: center; 
+padding-top: 80px; 
+ }
+main form { 
+width: 1000px; 
+padding: 40px; 
+background:#ffffff77; 
+box-shadow: 0 8px 32px #1f26875e; 
+backdrop-filter: blur( 13.5px ); 
+border-radius: 10px; 
+border: 1px solid #ffffff33;
+}
+ main form h2{ 
+text-align: center; 
+margin-bottom: 20px; 
+font-size: 33px; 
+color: #322332 ;
+}
+main form h3{
+	font-size: 25px;
+	margin-bottom:20px;
+}
+main form label{
+	color: #322332;
+	font-weight: 700;	
+}
+main form input, select{
+	height: 30px;
+	border-radius:5px;
+	border-color:#16A085;
+	margin:5px 0 10px 0;
+	font-size:20px;
+}
+main form input:focus, select:focus{
+	border-color: #fff600;
+}
+main form hr{
+	margin: 10px 0;
+
+}
+main form input[type=radio] { 
+width: 20px; 
+margin-left: 10px; 
+}
+main form input[type=submit] { 
+width: 190px; 
+font-weight: 900; 
+height: 50px; 
+cursor: pointer; 
+margin-left: 37%;  
+background-image: linear-gradient(120deg,
+#d4fc79 0%, #96e6a1 100%); 
+} 
